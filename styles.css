@@ -1,0 +1,141 @@
+/* ----------------fonts--------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap");
+
+/* -----------------utilities-------------------- */
+.menu {
+  text-decoration: none;
+  display: block;
+  justify-content: space-between;
+}
+.link-button {
+  color: wheat;
+  font-weight: 700;
+  border: 1px solid palevioletred;
+  border-radius: 5px;
+}
+
+main {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 3750px;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* ---------------top-banner-styles--------------- */
+.top-banner {
+  width: 1440px;
+  height: 677px;
+  background-color: #2d25a0;
+  display: flex;
+  justify-content: center;
+}
+
+.half-width {
+  display: block;
+  width: 485px;
+  height: 230px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 80px;
+  margin: 0;
+  color: #ffffff;
+}
+.half-width h1 {
+  display: block;
+}
+.half-width img {
+  width: 556px;
+  height: 438px;
+  padding-top: 35px;
+}
+.link-button {
+  width: 68px;
+  height: 44px;
+  text-decoration: none;
+  background-color: #e02c6d;
+  padding: 10px 24px;
+}
+/* ---------players-list-style------------- */
+.players-list {
+  padding-top: 30px;
+  padding-left: 180px;
+  align-items: center;
+  display: block;
+}
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+  justify-content: stretch;
+}
+.player {
+  font-size: 10px;
+  display: inline-block;
+  margin-left: 15%;
+  margin-right: 25%;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  margin-top: 10px;
+  box-shadow: 10px 20px 40px gray;
+  border-radius: 5px;
+}
+
+.container {
+  width: 1040px;
+  height: 474px;
+}
+.player h3 {
+  font-size: 15px;
+}
+.player img {
+  width: 230px;
+  height: 274px;
+}
+.fa-futbol {
+  font-size: 64px;
+}
+.futbol-title {
+  font-size: 35px;
+  font-style: italic;
+}
+/* ------highlights-section------ */
+.highlights {
+  width: 65%;
+  display: flex;
+  align-items: center;
+
+  margin-top: 20px;
+  margin-left: 182px;
+  padding-left: 85px;
+}
+.half-highlights {
+  width: 50%;
+  height: 309px;
+  padding: 20px;
+}
+.highlights img {
+  width: 465px;
+  height: 327px;
+}
+/* -------footer-------- */
+
+footer {
+  float: left;
+  width: ;
+  display: inline-block;
+  font-style: italic;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  vertical-align: middle;
+}
+/* -------media query--------- */
+@media only screen(max-width:688px;) {
+  .top-banner {
+    background-column: blue;
+  }
+}
